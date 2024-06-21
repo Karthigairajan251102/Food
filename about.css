@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+  }
+pre
+{
+    text-align: justify;
+    color:white;
+    font-size: 15px;
+    width: 100%;
+    margin: 0;
+    font-weight: 900;
+    font-style: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: violet;
+}
+
+
+h3{
+    text-align: left;
+    font-size: x-large;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(243, 31, 7);;
+    margin-left: 70px;
+}
+.about
+{
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+    /* background-image:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url("./chickenroll.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  */
+}
+.aboutcafe
+{
+    height: 700px;
+    width: 700px;
+    border: 2px solid;
+    background-color: black;
+    border-radius: 15px;
+}
+.self
+{
+    height: 700px;
+    width: 700px;
+    border: 2px solid;
+    background-color: black;
+    border-radius: 15px;
+}
+.karthicafe
+{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+.footer
+{
+    background-color: black;
+    height: 262px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* text-align: center; */
+    width: 100%;
+}
+img
+{
+    border: 1px solid;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.cakelist
+{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.gravy
+{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pages
+{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.count
+{
+    color: rgb(228, 17, 17);
+    font-size: 25px;
+    font-weight: 600
+}
+h4
+{
+    color: rgb(181, 17, 17);
+    font-size: 25px;
+}
+.scroll
+{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+    border-radius: 50%;
+}

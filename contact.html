@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h2 class="karthi">Contact Us</h2>
+    <div class="contact">
+        <div class="details">
+            <h4 class="Information">Contact Information</h4>
+            <h5 class="location">Location</h5>
+            <span class="loco">96,Nrkr Road</span>
+            <span class="loco">Sivakasi</span><br><br>
+            <h5 class="phone">Mobile</h5>
+            <span class="loco">9629196431</span><br><br>
+            <h5 class="mailid">Mail</h5>
+            <span class="loco">karthimsl77@gmail.com</span><br><br><br>
+            <div class="social">
+                <a href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size:25px;"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook" style="font-size:25px;"></i></a>
+                <a href="https://www.twitter.com/"><i class="fa fa-twitter" style="font-size:25px;"></i></a>
+            </div>
+        </div>
+        <div class="info">
+            <div>
+                <label for="yourname" id="yourname">Your Name</label><br><br>
+                <input type="text" placeholder="Enter name" id="name"><br>
+            </div>
+            <div class="valid">
+                <label for="mail">Your Mail</label><br><br>
+                <input type="text"  placeholder="Enter mail" id="mail"><br>
+                <span id="invalid"></span>
+            </div>
+            <div>
+                <label for="mobileno">Mobile Number</label><br><br>
+                <input type="text" placeholder="Enter mobileno" id="mobileno"><br>
+                <span id="no"></span>
+                <span id="validno"></span>
+            </div>
+            <div>
+                <label for="Message">Enter your Message</label><br><br>
+                <input type="text" placeholder="Enter Message" id="message">
+            </div>
+    
+                <button type="submit" onclick="validation()">Send Message</button>
+            
+        </div>
+    </div><br><br>
+    <h3 class="otherbranch">Other Branches</h3>
+    <footer class="branch">
+        <div class="branches">
+            <h4>Cafe</h4>
+            <span>29,Vilas Road,</span>
+            <span>Sivakasi</span>
+        </div>
+        <div class="branches">
+            <h4>Cafe</h4>
+            <span>29,New Road,</span>
+            <span>Sivakasi</span>
+        </div>
+        <div class="branches">
+            <h4>Cafe</h4>
+            <span>78,Near Bus Stand,</span>
+            <span>Sivakasi</span>
+        </div>
+        <div class="branches">
+            <h4>Cafe</h4>
+            <span>55,Ghandhi Road,</span>
+            <span>Sivakasi</span>
+        </div>
+
+    </footer>
+    <img class="scroll" onclick="topFunction()" src="scroll.jpg">
+    <script src="contact.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,157 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(185, 136, 144);;
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url("./panner.jpg");
+}
+.contact
+{
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    /* border: 1px solid white ; */
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+.details
+{
+    background-color: violet;
+    width: 300px;
+    height: 500px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.info
+{
+    width: 500px;
+    height:500px ;
+    background-color: beige;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.karthi
+{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+.Information
+{
+    padding-top: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 60px;
+}
+input
+{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+}
+.location
+{
+    padding-left: 80px;
+    padding-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.phone
+{
+    padding-left: 80px;
+    font-family:'Times New Roman', Times, serif;
+}
+.loco
+{
+    padding-left: 80px;
+    font-family:'Times New Roman', Times, serif;
+}
+.mailid
+{
+    padding-left: 80px;
+    font-family:'Times New Roman', Times, serif;
+}
+.social
+{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+label
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+}
+.branch
+{
+    display: flex;
+    justify-content: space-evenly
+}
+.otherbranch
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.branches
+{
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 400px;
+}
+.scroll
+{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+    border-radius: 50%;
+}
+button
+{
+    transform: translateX(125px);
+    background-color: violet;
+    border: transparent;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+    cursor:pointer;
+}
+a i 
+{
+    color: rgb(241, 234, 234);
+}
+a i:hover
+{
+    color: gray;
+}
+#invalid
+{
+    color: red;
+}
+#no
+{
+    color: red;
+}
+#validno
+{
+    color: red;
+}
